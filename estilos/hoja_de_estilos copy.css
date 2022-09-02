@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Estilo del cuerpo*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(../imagenes/fondito.jpg);
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	overflow-y: auto;
+}
+
+/*Fin del estilo del cuerpo*/
+/*anclas*/
+a {
+	transition-property: color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+a:hover {
+	color: red;
+}
+
+/*fin de ancla*/
+/*imagen de logo con rotacion*/
+
+.imagenlogo img:hover {
+	transform: rotate(25deg) scale(1.0);
+}
+
+.cabecera {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.paginas ul {
+	display: flex;
+
+}
+
+.paginas {
+
+	display: flex;
+	align-items: center;
+}
+
+.contenido {
+	display: grid;
+
+}
+
+/*imagenes encolumnadas*/
+.imagenes {
+	display: grid;
+	grid-template-columns: minmax(20%, 25%) minmax(20%, 25%) minmax(20%, 25%) minmax(20%, 25%) minmax(20%, 25%);
+	row-gap: 1.5%;
+	column-gap: 1%;
+}
+
+.content {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+/*Inicio del Formulario*/
+.contact-form {
+	background: black;
+}
+
+.contact-form form {
+	margin: 0;
+	padding: 50px;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+	width: 80%;
+	padding: 1em;
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+.contact-form form {
+	background-image: linear-gradient(to right, #e0bbe4 0%, #957dad 50%, #d291bc 60%, #fec8d8 80%, #ffdfd3 90%);
+	display: grid;
+	grid-template-columns: minmax(20%, 40%) minmax(20%, 40%);
+	grid-column-gap: 10%
+}
+
+.envia {
+	margin: 20%;
+}
+
+/*Fin del formulario*/
+
+
+.menu {
+	text-align: center;
+	padding: 1em;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+
+
+.contenido>div {
+	text-align: center;
+	padding: 0;
+}
+
+.seleccion {
+	padding: center;
+	display: grid;
+	grid-template-columns: minmax(15%, 25%) minmax(15%, 25%);
+
+}
+
+/*imagen decorativa en productos*/
+.anotador {
+	width: 100px;
+	height: 100px;
+	margin: 100px;
+}
+
+.scale {
+	transform: scale(2);
+}
+
+.skew {
+	transform: skew(15deg);
+}
+
+/*fin de la imagen decorativa en productos*/
+
+/*Inicio del Footer*/
+.footer {
+	padding: 2%;
+	text-align: center;
+	margin-top: center;
+
+}
+
+/*Fin del Footer*/
+/*media queri*/
