@@ -39,7 +39,7 @@
 							<a class="nav-link" href="productos.html">Elegi</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#contacto">Contacto</a>
+							<a href="#contacto" class="d-block mt-2 mb-2">Contacto</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="comocomprar.html">producto</a>
@@ -69,19 +69,28 @@
 	<!-- Inicio del contenido -->
 	<div class="contenido">
 		<div>
-			<div class="imagenlogo">
-				<!-- Inicio carrusel de imagenes -->
-				<img src="imagenes/dulceyasmin.jpg" alt="Dulce Yasmin" title="Dulce Yasmin" width="200" />
-				<!-- Fin carrusel de imagenes -->
-				<h1>Tortas de cumpleaños</h1>
+			<!-- Inicio carrusel de imagenes -->
+			<img src="imagenes/gorroc.png" alt="Gorro" title="Gorro" width="250" />
+			
+			<div class="imagentransfor">
+				<h1 class="titulo-imagen">Tortas de cumpleaños</h1>
 				<p>Tienen crema, dulce de leche y chocolate. No podes no probarlas las super recomiendo, son un sueño.</p>
+				<div>
+				<img src="imagenes/torta16.jpg" alt="torta16" title="torta16" width="400" height="400" />
+				<img src="imagenes/torta8.jpg" alt="torta8" title="torta8" width="200" height="200" />
+				<img src="imagenes/torta14.jpg" alt="torta14" title="torta14" width="200" height="200" />
+				<!-- Fin carrusel de imagenes -->
+			</div>
 			</div>
 			<div>
 				<h2 class="h1">Tortas a pedido</h2>
 				<p>Se libre de elegir como más te guste. No tenemos freno, usa tu imaginación y vas a tener la torta que imaginabas </p>
 			</div>
+				<img src="imagenes/torta3.jpg" alt="torta3" title="torta3" width="400" height="400" />
+			
+			</div>
 			<div>
-				<h3 class="h1">Mini Tortas</h3>
+				<h2 class="h1">Mini Tortas</h2>
 				<p>Pueden ser de:</p>
 				<ul>
 					<li>Choco Torta</li>
@@ -93,7 +102,12 @@
 					<li>Crema</li>
 				</ul>
 			</div>
-			<h4 class="h1">Desayunos & Meriendas</h4>
+			<h2 class="h1">Desayunos & Meriendas</h2>
+			<div class="imagentransfor">
+			<img src="imagenes/desayuno.jpg" alt="Desayuno" title="Desayuno" width="150" height="150" />
+			<img src="imagenes/merienda2.jpg" alt="Merienda" title="Merienda" width="150" height="150" />
+			<img src="imagenes/merienda3.jpg" alt="Merienda" title="Merienda" width="150" height="150" />
+			</div>
 			<p>Tenemos Box ya armados</p>
 			<ul>
 				<li>Box Desayuno Super XXL</li>
@@ -117,30 +131,28 @@
 			<h5 class="h1">contacto</h5>
 			<div class="contact-form">
 				<form action="#">
-					<p>
+					<div>
 						<label>Nombre:</label>
 						<input type="texto" name="Usuario" />
-					</p>
-					<p>
+					</div>
+					<div>
 						<label>Email:</label>
 						<input type="texto" name="Email" />
-					</p>
-					<p>
+					</div>
+					<div>
 						<label>Telefono:</label>
 						<input type="texto" name="telefono">
-					</p>
-					<p>
+					</div>
+					<div>
 						<label>Informacion:</label>
 						<input type="texto" name="contenido">
-					</p>
-					<p>
+					</div>
+					<div>
 						<label>Mensaje:</label>
 						<textarea name="mensaje" rows="3"></textarea>
-					</p>
+					</div>
 					<div class="envia">
-						<p>
 							<input type="submit" />
-						</p>
 					</div>
 			</div>
 		</div>
@@ -150,28 +162,28 @@
 	<!-- Fin menú del contenido -->
 	<!-- Inicio Pie de pagina-->
 	<footer>
-		<div class="footer">
+		<ul class="footer">
 			<h5 class="h3">NAVEGACION</h5>
-			<div>
+			<li>
 				<a href="index.html" class="d-block mt-2 mb-2">Inicio</a>
-			</div>
-			<div>
+			</li>
+			<li>
 				<a href="productos.html" class="d-block mt-2 mb-2">Elegi</a>
-			</div>
-			<div>
+			</li>
+			<li>
 				<a href="#contacto" class="d-block mt-2 mb-2">Contacto</a>
-			</div>
-			<div>
+			</li>
+			<li>
 				<a href="comocomprar.html" class="d-block mt-2 mb-2">Producto</a>
-			</div>
+			</li>
 			<a href="calcular.html" class="d-block mt-2 mb-2">Ayuda</a>
-			<div>
+			<li>
 				<a href="equipo.html" class="d-block mt-2 mb-2">Nosotros</a>
-			</div>
-			<div>
+			</li>
+			<li>
 				<a href="galeria.html" class="d-block mt-2 mb-2">Galeria</a>
-			</div>
-		</div>
+			</li>
+		</ul>
 	</footer>
 	<!-- JavaScript Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
