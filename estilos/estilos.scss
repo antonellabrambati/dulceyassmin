@@ -171,30 +171,32 @@ p {
         grid-column-gap: 10%;
     }
 }
+
 .content {
     .envia {
-    margin: 20%;
+        margin: 20%;
     }
-  }
-  
-  /*Fin del formulario*/
+}
+
+/*Fin del formulario*/
 .menu {
     text-align: center;
     padding: 1em;
 }
-.menu  {
-    li {
-    display: inline-block;
-    }
-  }
 
-  
-.contenido  {
-    img {
-    align-self: auto;
+.menu {
+    li {
+        display: inline-block;
     }
-  }
-  
+}
+
+
+.contenido {
+    img {
+        align-self: auto;
+    }
+}
+
 .contenido {
     text-align: center;
     padding: 0;
@@ -236,5 +238,3 @@ p {
 
 /*Fin del Footer*/
 /*media queri*/
-
-/*# sourceMappingURL=estilos.css.map */
