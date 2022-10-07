@@ -213,5 +213,10 @@ p {
 
 /*Fin del Footer*/
 /*media queri*/
+@media screen and (max-width: 480px) {
+  body {
+    background: #cad2d6;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
